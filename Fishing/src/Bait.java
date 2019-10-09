@@ -2,10 +2,11 @@ import java.util.ArrayList;
 
 public class Bait
 	{
-
+		static String userBait = "";
+		static ArrayList<BaitPoJo>bait= new ArrayList<BaitPoJo>();	
 		public static void bait()
-			{
-				ArrayList<BaitPoJo>bait= new ArrayList<BaitPoJo>();	
+			{	
+			
 				bait.add (new BaitPoJo("Worm" , true , 6));
 				bait.add (new BaitPoJo("Nymphs" , false , 1));
 				bait.add (new BaitPoJo("Mealworms" , true , 2));
@@ -15,22 +16,18 @@ public class Bait
 				bait.add (new BaitPoJo("Minnows" , true , 3));
 				bait.add (new BaitPoJo("Flies" , false , 1));
 
-
-				System.out.println(bait.get(0).getTypesOfBait());
+				
+				System.out.println("Here are your Baits, and whether or not it is alive and its size.");
+				for( BaitPoJo b : bait)
+					{
+						System.out.print(b.getTypesOfBait());
+						System.out.print(", " + b.isAlive());
+						System.out.print(", " + b.getSize());
+						System.out.println();
+					}
+				System.out.println("Which bait would you like?");
 				
 				
-				for( Baby b : nursery)
-					{
-						System.out.println(b.getName());
-					}
-				for( Baby b : nursery)
-					{
-						System.out.println(b.getWeight());
-					}
-				for( Baby b : nursery)
-					{
-						System.out.println(b.getGender());
-					}
 			}
 
 	}
