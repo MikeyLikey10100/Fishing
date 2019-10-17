@@ -4,22 +4,13 @@ public class FishPoJo
 		private String typesOfFish ; 
 		private int weight ;
 		private int size ;
-		private boolean male;
-		public FishPoJo(String f, int w, int s, boolean m )
+		public FishPoJo(String f, int w, int s )
 		{
 			typesOfFish = f ; 
 			weight = w; 
 			size = s; 
-			male = m;
+			
 		}
-		public boolean isMale()
-			{
-				return male;
-			}
-		public void setMale(boolean male)
-			{
-				this.male = male;
-			}
 		public String getTypesOfFish()
 			{
 				return typesOfFish;
@@ -44,5 +35,9 @@ public class FishPoJo
 			{
 				this.size = size;
 			}
+		public String isAlive() {
+			// TODO Auto-generated method stub
+			return null;
+		}
 
 	}

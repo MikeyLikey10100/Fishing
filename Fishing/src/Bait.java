@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Bait
 	{
@@ -27,7 +28,10 @@ public class Bait
 					}
 				System.out.println("Which bait would you like?");
 				
+				Scanner userBait = new Scanner (System.in);
 				
+				String bait = userBait.nextLine();
+				System.out.println("You picked " + bait + ". Time to cast your rod.");
 			}
 
 	}

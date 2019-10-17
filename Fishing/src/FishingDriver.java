@@ -6,7 +6,13 @@ public class FishingDriver
 		public static void main(String[] args)
 			{
 				Greeting.greeting();
-				Bait.bait();				
+				System.out.println();
+				Bait.bait();
+				System.out.println();
+				delay.casting();
+				System.out.println();
+				Fishes.fishes();
+				
 			}
 
 	}

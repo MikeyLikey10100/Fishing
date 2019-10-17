@@ -4,6 +4,7 @@ public class Greeting
 {
 		public static void greeting()
 		{
+			Scanner userInput = new Scanner (System.in);
 			Scanner userInput1 = new Scanner (System.in);
 			Scanner userInput2 = new Scanner (System.in);
 			
@@ -19,11 +20,27 @@ public class Greeting
 			
 			if( rules == 1)
 				{
-					System.out.println("vdfgkdhfgjkl");
+					System.out.println("Ok, this is how the game works!");
+					System.out.println();
+					System.out.println("You will be choosing a bait that you would want to use. ");
+					System.out.println();
+					System.out.println("Then you cast the rod and wait for a fish!");
+					System.out.println();
+					System.out.println("Its that easy!");
+					System.out.println();
+					System.out.println("Ready to play(1 = yes). If not you can continue to read the instructions.");
+					
+					int ready = userInput.nextInt();
+					
+					if (ready == 1)
+					{
+						System.out.println("Ok, Lets get started");
+					}
 				}
 			else
 				{
 					System.out.println("Ok, let's get started");
 				}
+			
 		}
 	}
