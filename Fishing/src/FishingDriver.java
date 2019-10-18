@@ -12,7 +12,8 @@ public class FishingDriver
 				delay.casting();
 				System.out.println();
 				Fishes.fishes();
-				
+				System.out.println();
+				System.out.println("Thank you for playing");
 			}
 
 	}
