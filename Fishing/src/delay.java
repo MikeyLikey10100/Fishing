@@ -4,7 +4,7 @@ public static void delay()
 {
 	try 
 	 {
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	 }
 	catch(InterruptedException f)
 	{

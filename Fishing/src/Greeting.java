@@ -8,7 +8,7 @@ public class Greeting
 			Scanner userInput1 = new Scanner (System.in);
 			Scanner userInput2 = new Scanner (System.in);
 			
-			System.out.println("Hello, welcome to fishing. Were you become a pro fishermen. What is your name?");
+			System.out.println("Hello, welcome to fishing. Where you become a pro fishermen. What is your name?");
 			
 			String name = userInput1.nextLine();
 			
