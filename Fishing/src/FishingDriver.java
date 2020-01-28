@@ -12,6 +12,7 @@ public class FishingDriver
 				JFrame frame = new JFrame();
 				ImageIcon fish = new ImageIcon("fish test.jpg");
 				JOptionPane.showMessageDialog(frame, fish);
+				//Object[] bait2 = {"cod"};
 		        Greeting.greeting();
 				System.out.println();
 				Bait.bait();

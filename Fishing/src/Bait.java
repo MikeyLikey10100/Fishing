@@ -8,7 +8,7 @@ public class Bait
 		public static void bait()
 			{	
 			
-				bait.add (new BaitPoJo("Worm" , true , 6));
+				/*bait.add (new BaitPoJo("Worm" , true , 6));
 				bait.add (new BaitPoJo("Nymphs" , false , 1));
 				bait.add (new BaitPoJo("Mealworms" , true , 2));
 				bait.add (new BaitPoJo("Leaches" , true , 2));
@@ -16,8 +16,8 @@ public class Bait
 				bait.add (new BaitPoJo("Lure" , false , 4));
 				bait.add (new BaitPoJo("Minnows" , true , 3));
 				bait.add (new BaitPoJo("Flies" , false , 1));
-
-				
+*/
+				Object[] bait2 = {"Worm, live, 6in","Nymphs, not live, 1in", "Mealworms, live", "Leechs", "Spinners", "Lure", "Minnows","Flies" };
 				System.out.println("Here are your Baits, and whether or not it is alive and its size.");
 				for( BaitPoJo b : bait)
 					{

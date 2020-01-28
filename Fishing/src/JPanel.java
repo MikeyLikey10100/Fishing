@@ -8,7 +8,7 @@ public class JPanel extends JFrame
 	private static final long serialVersionUID = 1L;
 	static String variable;
 
-	public static void main(String[] args)
+	public static void Jpane()
 		{
 		String[] preMadeArray = new String[] {"First Option", "Second Option", "Third Option"}; 
 		JButton button = new JButton("Enter");
@@ -46,8 +46,8 @@ public class JPanel extends JFrame
 			{
 			final JFrame frame = new JFrame("JFrame Name");
 		    String favoritePizza = (String) JOptionPane.showInputDialog(frame, 
-		            "What is your favorite pizza?",
-		            "Favorite Pizza",
+		            "What is your favorite ?",
+		            "Favorite",
 		            JOptionPane.QUESTION_MESSAGE, 
 		            null, 
 		            pizzas, 
@@ -56,5 +56,6 @@ public class JPanel extends JFrame
 		        // favoritePizza will be null if the user clicks Cancel
 		        System.out.printf("Favorite pizza is %s.\n", favoritePizza);
 		frame.setVisible(true);
+		
 		}
 	}
