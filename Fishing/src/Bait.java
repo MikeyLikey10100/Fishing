@@ -17,7 +17,7 @@ public class Bait
 				bait.add (new BaitPoJo("Minnows" , true , 3));
 				bait.add (new BaitPoJo("Flies" , false , 1));
 */
-				Object[] bait2 = {"Worm, live, 6in","Nymphs, not live, 1in", "Mealworms, live", "Leechs", "Spinners", "Lure", "Minnows","Flies" };
+				Object[] bait2 = {"Worm, live, 6in","Nymphs, not live, 1in", "Mealworms, live, 2in", "Leechs", "Spinners", "Lure", "Minnows","Flies" };
 				System.out.println("Here are your Baits, and whether or not it is alive and its size.");
 				for( BaitPoJo b : bait)
 					{
